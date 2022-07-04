@@ -34,5 +34,5 @@ public class Data {
         sum += user.getZandaka();
     }
     return sum;
-  }
+}
 }
