@@ -44,10 +44,6 @@ class UserTest {
 
   @Test
   public void testNenri(){
-    User user = new User("koudai", "oit2022");
-    user.nyukin(1000);
-    int expected = 1015;
-    assertEquals(expected, user.nenri(0.5, 3));  
+    Uesr user = new User("koudai", oit2022);
   }
-
 }

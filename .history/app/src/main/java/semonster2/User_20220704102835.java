@@ -36,12 +36,5 @@ public class User {
     return this.zandaka;
   }
 
-  public int nenri(Double ratio, int years){
-    ratio /= 100;
-    double nowZandaka = this.zandaka;
-    for(int i=0; i < years; i++){
-      nowZandaka = (nowZandaka * ratio + nowZandaka);
-    }
-    return (int)nowZandaka;
-  }
+  
 }

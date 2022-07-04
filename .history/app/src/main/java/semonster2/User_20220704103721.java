@@ -38,8 +38,8 @@ public class User {
 
   public int nenri(Double ratio, int years){
     ratio /= 100;
-    double nowZandaka = this.zandaka;
-    for(int i=0; i < years; i++){
+    double nowZandaka = (this.zandaka * ratio + this.zandaka);
+    for(int i=1; i < years; i++){
       nowZandaka = (nowZandaka * ratio + nowZandaka);
     }
     return (int)nowZandaka;
