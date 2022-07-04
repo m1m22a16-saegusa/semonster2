@@ -22,17 +22,4 @@ public class User {
     return this.zandaka;
   }
 
-  public int nyukin(int money){
-    this.zandaka += money;
-    return this.zandaka;
-  }
-
-  public int syukkin(int money){
-    if(this.zandaka >= money){
-      this.zandaka -= money;
-    }else{
-      return -1;
-    }
-    return this.zandaka;
-  }
 }

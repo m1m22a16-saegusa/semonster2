@@ -25,14 +25,12 @@ class UserTest {
     assertEquals(expected, user.getZandaka());
   }
 
-  @Test
   public void testNyukin() {
     User user = new User("koudai", "oit2022");
     int expected = 100;
     assertEquals(expected, user.nyukin(100));
   }
 
-  @Test
   public void testSyukkin() {
     User user = new User("koudai", "oit2022");
     user.nyukin(200);
