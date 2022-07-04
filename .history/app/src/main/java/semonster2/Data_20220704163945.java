@@ -29,10 +29,10 @@ public class Data {
   }
 
   public int ginkoZandaka(){
-    int sum = 0;
-    for (User user : users_data) {
-        sum += user.getZandaka();
-    }
-    return sum;
+      int sum = 0;
+      for (User user : users_data) {
+          sum += user.getZandaka();
+      }
+      return sum;
   }
 }

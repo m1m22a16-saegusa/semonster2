@@ -60,9 +60,6 @@ public class DataTest {
     User user1 = new User("koudai", "oit2022");
     User user2 = new User("daikou", "oit2022");
 
-    data.addUser(user1);
-    data.addUser(user2);
-
     user1.nyukin(500);
     user2.nyukin(200);
 
