@@ -40,12 +40,9 @@ public class DataTest {
     data.addUser(user1);
     data.addUser(user2);
 
-    data.sendUser(user1, user2, 300);
+    data.sendUser("koudai", "daikou", 300);
 
     int expected = 800;
     assertEquals(expected, user2.getZandaka());
-
-    expected = -1;
-    assertEquals(expected, data.sendUser(user1, user2, 300));
   }
 }
