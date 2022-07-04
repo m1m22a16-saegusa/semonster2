@@ -19,7 +19,7 @@ public class App {
         user1.nyukin(500);
         user2.nyukin(200);
 
-        data.sendUser(user1, user2, 100);
+        data.sendUser(user1, user2, 100)
 
         System.out.println(user1.getUserName());
         System.out.println(user1.getZandaka());
