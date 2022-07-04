@@ -20,11 +20,6 @@ public class DataTest {
     User user2 = new User("daikou", "oit2022");
     User user3 = new User("Osaka", "oit2022");
 
-    data.addUser(user1);
-    data.addUser(user2);
-    data.addUser(user3);
-
-    int expected = 2;
-    assertEquals(expected, data.deleteUser(user1));
+    data.
   }
 }

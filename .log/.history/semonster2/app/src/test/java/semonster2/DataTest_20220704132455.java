@@ -23,8 +23,5 @@ public class DataTest {
     data.addUser(user1);
     data.addUser(user2);
     data.addUser(user3);
-
-    int expected = 2;
-    assertEquals(expected, data.deleteUser(user1));
   }
 }
