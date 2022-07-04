@@ -26,5 +26,10 @@ public class DataTest {
 
     int expected = 2;
     assertEquals(expected, data.deleteUser(user1));
+
+    expected = -1;
+    data.deleteUser(user2);
+    data.deleteUser(user3);
+    assertEquals(expected, data.deleteUser(user1));
   }
 }
