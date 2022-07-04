@@ -7,11 +7,14 @@ public class Data {
   private List<User> users_data = new ArrayList<User>();
 
   public int deleteUser(User user) {
+    if (users_data.size() <= 0) {
+      return -1;
+    }
     users_data.remove(users_data.indexOf(user));
     return users_data.size();
   }
-    
-  public int addUser(User user){
+
+  public int addUser(User user) {
     users_data.add(user);
     return users_data.size();
   }
