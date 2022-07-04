@@ -10,10 +10,5 @@ public class Data {
     users_data.remove(users_data.indexOf(user));
     return users_data.size();
   }
-    
-  public int addUser(User user){
-    users_data.add(user);
-    return users_data.size();
-  }
 
 }
