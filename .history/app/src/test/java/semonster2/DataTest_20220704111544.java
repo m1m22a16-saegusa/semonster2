@@ -8,7 +8,7 @@ public class DataTest {
     @Test
     public void testUserAdd(){
         Data data = new Data();
-        User user = new User("koudai", "oit2022");
+        User user = new User("koudai", "oit2022")
         int expected = 1;
         assertEquals(expected, data.addUser(user));    
     }
