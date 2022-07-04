@@ -44,8 +44,5 @@ public class DataTest {
 
     int expected = 800;
     assertEquals(expected, user2.getZandaka());
-
-    expected = -1;
-    assertEquals(expected, data.sendUser(user1, user2, 300));
   }
 }
